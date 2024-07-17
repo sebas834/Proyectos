@@ -8,5 +8,3 @@ def nudu(df):
     print(f"Valores nulos por columna:\n{df.isnull().sum()}\n")
     print(f"Valores duplicados: {df.duplicated().sum()}\n")
     print(f"Tipos de datos por columna:\n{df.dtypes}")
-
-print(8)
